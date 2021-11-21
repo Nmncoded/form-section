@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="html-forms.html" method="post" >
+        <h1>Sign Up</h1>
+        <fieldset>
+            <legend>
+                <span>1</span>
+                Your Basic Info
+            </legend>
+            <label>Name:
+                <input class="form-control" type="name" name="name">
+            </label>
+            <label>Email:
+                <input  class="form-control" type="email" name="email">
+            </label>
+            <label>Password:
+                <input class="form-control"  type="password" name="password">
+            </label>
+            <div>
+                <label for="">Age:</label>
+                <label>
+                    <input type="radio" name="Age">
+                    Under13
+                </label>
+                <label>
+                    <input type="radio" name="Age">
+                    Over13
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <span>2</span>
+                Your Profile
+            </legend>
+            <label for="bio">Bio:
+            </label>
+            <textarea id="bio" name="" rows="4"></textarea>
+            <label for="">Job Role:</label>
+            <select name="role" id="role">
+                <optgroup label="web" >
+                    <option value="front-end-developer">front-end-developer</option>
+                    <option value="backend-end-developer">backend-end-developer</option>
+                    <option value="php-developer">php-developer</option>
+                    <option value="python-developer">python-developer</option>
+                </optgroup>
+                <optgroup label="mobile" >
+                    <option value="android-developer">android-developer</option>
+                    <option value="ios-developer">ios-developer</option>
+                    <option value="linux-developer">linux-developer</option>
+                </optgroup>
+                <optgroup label="Business" >
+                    <option value="Business-owner">Business-owner</option>
+                    <option value="Freelancer">Freelancer</option>
+                </optgroup>
+            </select>
+            <div>
+                <label for="">Interests:</label>
+                <label>
+                    <input type="checkbox" name="interest">
+                    Development
+                </label>
+                <label>
+                    <input type="checkbox" name="interest">
+                    Design
+                </label>
+                <label>
+                    <input type="checkbox" name="interest">
+                    Business
+                </label>
+            </div>
+        </fieldset>
+        <button>Sign Up</button>
+    </form>
+</body>
+</html>

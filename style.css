@@ -1,0 +1,180 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom styles */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: "Open Sans", sans-serif ;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 32px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* form section */
+
+form {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 26px 24px;
+    background-color: #f4f7f8;
+    border-radius: 8px;
+}
+fieldset {
+    margin: 16px 0;
+}
+
+h1 {
+    margin-bottom: 16px;
+    font-size: 24px;
+    color: #272727;
+    font-weight: 600;
+    text-align: center;
+}
+legend {
+    color: #8f9090;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+legend span {
+    margin-right: 12px;
+    color: #fff ;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #4ec64e;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    background-color: #e8eeef;
+    border: 0;
+    outline: 0;
+    color: #8f9090;
+    margin: 12px 0 24px 0;
+    padding: 14px;
+    border-radius: 4px;
+    border-top: 2px solid #c8caca;
+}
+.form-control:hover {
+    outline: 0;
+    border-color : #409240;
+}
+label {
+    font-size: 14px;
+    display: block;
+    margin-top: 8px;
+    /* margin-bottom: 28px; */
+}
+textarea {
+    width: 100%;
+    display: block;
+    background-color: #e8eeef;
+    border: 0;
+    outline: 0;
+    color: #8f9090;
+    margin: 12px 0 24px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border-top: 2px solid #c8caca;
+}
+
+textarea:hover {
+    outline: 0;
+    border-color : #409240;
+}
+select {
+    display: block;
+    width: 100%;
+    background-color: #e8eeef;
+    border: 0;
+    outline: 0;
+    color: #8f9090;
+    margin: 12px 0 14px 0;
+    padding: 14px;
+    border-radius: 4px;
+    border-top: 2px solid #c8caca;
+}
+select:hover {
+    outline: 0;
+    border-color : #409240;
+}
+
+button {
+    background-color: #4ec64e;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    padding: 16px 0;
+    color: #fff;
+    margin-top: 20px;
+    
+}
+button:hover {
+    background-color: #409240;
+    font-size: 16px ;
+}
